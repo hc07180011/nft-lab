@@ -3,7 +3,9 @@
 */
 require('dotenv').config();
 require("@nomiclabs/hardhat-ethers");
+
 const { API_URL, API_URL_MATIC, PRIVATE_KEY, PUBLIC_KEY } = process.env;
+
 module.exports = {
   solidity: {
     compilers: [
